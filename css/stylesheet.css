@@ -1,0 +1,67 @@
+@media screen and (max-width: 450px) {
+    .moblieW{
+        width: 100%;
+    }
+    
+}
+
+
+
+body{
+    margin: 0;
+}
+
+.bg-c1{
+    background-color: #f7bf50;
+}
+.bg-c2{
+    background-color: #261701;
+}
+
+.tx-c1{
+    color: #f7bf50;
+}
+.tx-c2{
+    color: #261701;
+}
+
+.header-bd{
+    /* border-color: #261701; */
+    border-bottom: #261701 3px solid;
+}
+.imslide{
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    overflow: none;
+}
+.zi{
+    z-index: 1;
+}
+.pr{
+    padding-right: 20px;
+}
+.w{
+    width: 300px;
+}
+.mt-6{
+    margin-top: 200px;
+}
+.footer-bd{
+    border-top: #261701 3px solid;
+}
+.cdw{
+    width: 20rem;
+}
+.localmh{
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mapsize{
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 1200px;
+    max-height: 800px;
+}
