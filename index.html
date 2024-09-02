@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Hong Kong Garden</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/carousel.css">
+    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
 
   </head>
   <body>
-      <div class="container-fluid p-0 bg-c1 header-bd fixed-top ">
+      <div id="header" class="container-fluid p-0 bg-c1 header-bd fixed-top ">
         <div class="row">
             <div class="col-1 text-center mt-2 zi"><p>(250)765-8885</p></div>
             <div class="col-10">
@@ -76,166 +76,111 @@
 
         </div>
       </div>
-      <div class="container">
-        <div class="mt-6">
-            <section class="carousel" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                  <li id="carousel__slide1"
-                      tabindex="0"
-                      class="carousel__slide">
-                      <img src="images/chicken-basil-1509063.jpg"  style="width: 100%;"alt="">
-                    <div class="carousel__snapper">
-                      <a href="#carousel__slide4"
-                         class="carousel__prev">Go to last slide</a>
-                      <a href="#carousel__slide2"
-                         class="carousel__next">Go to next slide</a>
+      <div id="main" class="container position-relative d-flex flex-column">
+
+        <div class="row justify-content-evenly">
+          <div class="col d-flex justify-content-center">
+
+            <div id="phone">
+              <div id="screen">
+                <div class="pages">
+              
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/food1.PNG" class="d-block" width="500px" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/food2.PNG" class="d-block " width="500px" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/food3.PNG" class="d-block" width="500px" alt="...">
+                      </div>
                     </div>
-                  </li>
-                  <li id="carousel__slide2"
-                      tabindex="0"
-                      class="carousel__slide">
-                      <img src="images/chinees-food-3-1323899.jpg"  style="height: 100%;"alt="">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide3"
-                      tabindex="0"
-                      class="carousel__slide">
-                      <img src="images/chinese-food-1327529.jpg"  style="width: 100%;"alt="">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide4"
-                      tabindex="0"
-                      class="carousel__slide">
-                      <img src="images/plate-with-chinese-food-1479803.jpg"  style="width: 100%;"alt="">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1"
-                       class="carousel__next">Go to first slide</a>
-                  </li>
-                </ol>
-                <aside class="carousel__navigation">
-                  <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide1"
-                         class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide2"
-                         class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide3"
-                         class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide4"
-                         class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                  </ol>
-                </aside>
-              </section>
-        </div>
-        <!-- <div  class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+              <div id="home"></div>
+              <div id="speaker"></div>
             </div>
-            <div class="carousel-inner ">
-              <div class="carousel-item active " >
-                <img src="images/chicken-basil-1509063.jpg" class="w-100" alt="...">
-                <div class="carousel-caption ">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/chinees-food-3-1323899.jpg" class="w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/plate-with-chinese-food-1479803.jpg" class="w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div> -->
-      </div>
-      <div class="container pt-5 pb-5">
-        <div class="row justify-content-around">
-            <div class="card cdw">
-                <div class="card-header">
-                    Great!
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>Great food! We ordered for a change and we were very happily surprised! Definitely recommend. Also they have great options for the individual meals. Glad I found it!</p>
-                    <footer class="blockquote-footer">Some google reviewer</cite></footer>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="card cdw">
-                <div class="card-header">
-                  Excellent
-                </div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>Excellent Sesame chicken. If the other dishes are as half as good as this chicken, I have a new Chinese favourite</p>
-                    <footer class="blockquote-footer">Some google reviewer</cite></footer>
-                  </blockquote>
-                </div>
-              </div>
+
+          </div>
+          <div class="card-holder col row">
+            <div class="col d-flex justify-content-center">
               <div class="card cdw">
                 <div class="card-header">
                   A favourite
                 </div>
                 <div class="card-body">
-                  <blockquote class="blockquote mb-0">
+                  <blockquote class="blockquote mb-0 fs-6">
                     <p>This remains one of my favourite Chinese take-out locations. The sit-in experience isn't much, but you will get good service. The food is very consistent quality and their menu is quite expansive. Their noodles, chop suey options, and meat like dry garlic pork, ginger beef, and sesame chicken are always good and taste the way I expect.</p>
                     <footer class="blockquote-footer">Some google reviewer</cite></footer>
                   </blockquote>
                 </div>
               </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="card cdw mt-3">
+                <div class="card-header">
+                    Great!
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0 fs-6">
+                    <p>Great food! We ordered for a change and we were very happily surprised! Definitely recommend. Also they have great options for the individual meals. Glad I found it!</p>
+                    <footer class="blockquote-footer">Some google reviewer</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-holder card-bottom-row col row">
+            <div class="col d-flex justify-content-center">
+
               <div class="card cdw">
+                <div class="card-header">
+                  Excellent
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0 fs-6">
+                    <p>Excellent Sesame chicken. If the other dishes are as half as good as this chicken, I have a new Chinese favourite</p>
+                    <footer class="blockquote-footer">Some google reviewer</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col d-flex justify-content-center">
+  
+              <div class="card cdw mt-3">
                 <div class="card-header">
                   BEST
                 </div>
                 <div class="card-body">
-                  <blockquote class="blockquote mb-0">
+                  <blockquote class="blockquote mb-0 fs-6">
                     <p>Absolute BEST spring rolls ever. I normally hate the filling inside spring rolls the flavor just doesnt do it for me, but these ones were amazing, I could taste the sesame oil which I LOVE, and the filling wasn't too mushy it was perfect.</p>
                     <footer class="blockquote-footer">Some google reviewer</cite></footer>
                   </blockquote>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
+
       </div>
-      <div class="container-fluid bg-c1 footer-bd">
+      <div id="footer" class="container-fluid bg-c1 footer-bd">
         <form class="">
             <h1><strong> Contact Us</strong></h1>
             <div class="row">
-                <div class="col-4 moblieW">
+                <div class="col-3 moblieW">
                     <div class="form-group col-10 sm1">
                         <label for="nameInput"><b> Name</label>
                         <input type="text" class="form-control bg-light" id="nameInput" placeholder="Enter your name">
@@ -244,14 +189,14 @@
                         <label for="emailInput">Email</label>
                         <input type="text" class="form-control bg-light" id="emailInput" placeholder="Enter your email">
                     </div>
-                </div><div class="col-4 moblieW">
+                </div><div class="col-3 moblieW">
                     
                     <div class="form-group col-12 sm1 bg mb-5">
                         <label for="messageInput">Message </b></label>
                         <textarea id="messageInput" class="form-control bg-light" rows="4"></textarea>
                     </div>
                 </div>
-                <div class="col-2 moblieW">
+                <div class="col-3 moblieW">
                     <h2><strong> Hours</strong></h2>
                     <div class="row">
                         <div class="col-6 mb-3">
@@ -268,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2 moblieW"><p class="text-center display-6">Open Dinner pick up
+                <div class="col-3 moblieW"><p class="text-center display-6">Open Dinner pick up
 
                     10% off pick up orders over $45.00 before tax.
                      

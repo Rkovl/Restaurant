@@ -2,10 +2,20 @@
     .moblieW{
         width: 100%;
     }
+    .card-holder{
+        display: none;
+    }
     
 }
+@media screen and (max-width: 1200px) {
+    .card-bottom-row{
+        display:none;
+    }
+}
 
-
+* {
+    scrollbar-width: none;
+  }
 
 body{
     margin: 0;
@@ -65,3 +75,60 @@ body{
     max-width: 1200px;
     max-height: 800px;
 }
+.card{
+    height: 35vh;
+    
+}
+
+#header{
+    min-height: 20vh;
+}
+#main{
+    margin-top: 23vh;
+    height: 77vh;
+    
+}
+
+/* phone */
+#phone {
+    width: 310px;
+    height: 640px;
+    border: 2px solid #1d1d1d;
+    border-radius: 30px;
+    
+    left: 50%;
+    top: 50px;
+    
+    background: #242424;
+  }
+  #screen {
+    width: 290px;
+    height: 520px;
+    border: 1px solid #ccc;
+    
+    left: 50%;
+    top: 50%;
+    margin: 30px 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  #home {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    
+    bottom: 10px;
+    left: 50%;
+    margin: 0 140px;
+    border-radius: 50%;
+  }
+  #speaker {
+    width: 50px;
+    height: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+    left: 50%;
+    top: 25px;
+    margin: 8px 133px;
+  }
